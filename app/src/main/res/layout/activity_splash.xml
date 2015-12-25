@@ -7,6 +7,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="io.github.medinar.medinar.SplashActivity">
+    tools:context="io.github.medinar.medinar.SplashActivity"
+    android:id="@+id/main_layout">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="/Users/robinonsay/StudioProjects/Medinar/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+            android:contentDescription="ic_launcher"
+            android:id="@+id/splash_logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Medinar"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/splash_app_name"
+            android:textSize="50dp" />
+    </LinearLayout>
+
 
 </RelativeLayout>
