@@ -1,0 +1,14 @@
+package io.github.medinar.medinar;
+
+import android.os.Bundle;
+import android.app.Activity;
+
+public class PatientMainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_patient_main);
+    }
+
+}

@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="/Users/robinonsay/StudioProjects/Medinar/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-            android:contentDescription="ic_launcher"
+            android:contentDescription="@string/logo"
             android:id="@+id/splash_logo" />
         <TextView
             android:layout_width="wrap_content"
