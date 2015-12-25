@@ -23,12 +23,7 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"
-            android:parentActivityName=".SplashActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="io.github.medinar.medinar.SplashActivity" />
-        </activity>
+            android:label="@string/title_activity_login" />
         <activity
             android:name=".NurseMainActivity"
             android:label="@string/title_activity_nurse_main" />
